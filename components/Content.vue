@@ -208,36 +208,36 @@
           src="https://mdbootstrap.com/img/new/slides/043.jpg"
           alt="Sunset in the mountains"
         />
-        <div class="grid grid-cols-2 gap-5 mr-10 mb-1 mt-5 ml-10">
+        <div class="grid grid-cols-2 gap-5 mr-6 mb-1 mt-4 ml-6">
           <div class="primary-font text-1xl font-semibold mt-1">Peugeot</div>
           <div class="text-2xl font-bold text-right">28 270 €</div>
         </div>
-        <div class="grid grid-cols-2 mr-10 mb-2 mt-5 ml-10">
-          <div class="text-2xl font-bold width-block">
-            <p>208 5 places</p>
-            <p class="text-base font-medium mt-1">1.2 PureTech 82 BVM5</p>
-            <p class="text-base texy-base font-normal mt-3">
+        <div class="grid grid-cols-4 gap-2 mr-6 mb-2 mt-1 ml-6">
+          <div class="col-span-3">
+            <p class="font-bold text-lg">208 5 places</p>
+            <p class="text-sm mt-1">1.2 PureTech 82 BVM5</p>
+            <p class="text-sm font-normal mt-3">
               <span class="mr-2">2019</span>|
               <span class="mr-2 ml-2">Essence</span>|
               <span class="mr-2 ml-2">10km</span>
             </p>
           </div>
-          <div class="text-gray-400 text-sm text-right mt-1">
+          <div class="text-gray-400 text-xs font-semibold text-right mt-1">
             <p>à partir</p>
-            <span class="font-bold text-xl">218 €</span>
-            <p>/mois</p>
+            <span class="font-bold text-base-without-line-height -my-1">240 €</span>
+            <p class="-mt-1">/mois</p>
           </div>
         </div>
 
-        <div class="grid grid-cols-2 mt-8">
+        <div class="grid grid-cols-2 bg-blue-200 mt-7">
           <button
-            class="btn bg-blue-200 color-link hover:bg-blue-400 text-white border w-100 text-1xl"
+            class="btn color-link hover:bg-blue-400 text-white w-100 text-sm py-2 px-1"
           >
             <i class="fa fa-car mr-1" aria-hidden="true"></i>
             Voir le détail
           </button>
           <button
-            class="btn bg-blue-200 color-link hover:bg-blue-400 text-white border w-100 py-2"
+            class="btn color-link hover:bg-blue-400 text-white w-100 text-sm py-2 px-1"
           >
             <i class="fa fa-heart mr-1" aria-hidden="true"></i>
             Mettre en favori
@@ -276,10 +276,10 @@ export default {
 .row-color-beige {
   background-color: #f5dcf5;
 }
-.width-block {
-  width: 130%;
-}
 .color-link {
   color: #1371c3;
+}
+.text-base-without-line-height{
+font-size: 1rem;
 }
 </style>
