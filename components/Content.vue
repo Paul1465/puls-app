@@ -19,7 +19,7 @@
             />
             <div
               class="carousel-item absolute opacity-0 bg-center"
-              style="height:500px; background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg)"
+              style="height: 575px; background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg)"
             ></div>
             <label
               for="carousel-3"
@@ -101,13 +101,13 @@
           <div class="col-start-1 col-end-4 text-5xl font-bold mt-1">
             11 600 €
           </div>
-          <div class="col-end-6 col-span-2 text-gray-400 text-lg ml-9">
+          <div class="col-end-6 col-span-2 text-gray-400 font-semibold text-base ml-6">
             <p>à partir de</p>
-            <span class="font-bold">218 €</span> /mois
+            <span class="font-bold text-lg">218 €</span> /mois
             <i class="fa fa-xs fa-info-circle" aria-hidden="true"></i>
           </div>
         </div>
-        <hr class="text-gray-300 w-5/6 content-center mt-5 mb-7" />
+        <hr class="text-gray-300 w-5/6 content-center mb-7 -mt-2" />
         <div class="mr-14">
           <button
             class="btn btn-primary bg-blue-500 hover:bg-blue-700 text-white font-bold border btn-block w-100 py-4 px-12 mb-3 mr-5"
@@ -124,11 +124,11 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-3 gap-4">
+    <div class="grid grid-cols-3 gap-4 mt-10">
       <div class="col-span-2 border-right-grey ml-10">
         <h3 class="font-semibold text-2xl mb-3">Fiche technique</h3>
         <h4 class="font-semibold text-1x1 mb-3">Général</h4>
-        <div class="grid grid-cols-4 gap-5 row-color-beige mr-10 mb-2">
+        <div class="grid grid-cols-4 gap-5 row-color-gris mr-10 mb-2">
           <div class="text-gray-500">Type</div>
           <div>Citadine</div>
           <div class="text-gray-500">Puissance</div>
@@ -140,7 +140,7 @@
           <div class="text-gray-500">Première main</div>
           <div>Oui</div>
         </div>
-        <div class="grid grid-cols-4 gap-5 row-color-beige mr-10 mb-10">
+        <div class="grid grid-cols-4 gap-5 row-color-gris mr-10 mb-10">
           <div class="text-gray-500">Carrosserie</div>
           <div>5 portes</div>
           <div class="text-gray-500">Couleur</div>
@@ -150,21 +150,31 @@
           <h4 class="font-semibold text-1x1 mb-3">Consommation</h4>
           <h4 class="font-semibold text-1x1 mb-3">Informations énergétiques</h4>
         </div>
-        <div class="grid grid-cols-4 gap-5 row-color-beige mr-10 mb-2">
+        <div class="grid grid-cols-4 gap-5 row-color-gris mr-10 mb-2">
           <div class="text-gray-500">Mixte</div>
           <div>4.7 1/ 100 Km</div>
           <div class="text-gray-500">Emissions de CO2</div>
-          <div>108g / Km</div>
+          <div class="flex flex-row">  108g / Km 
+          <svg class="mt-1 ml-1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="18" height="18"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#1bd261"><path d="M87.47672,14.29834c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,39.5815 32.08517,71.66667 71.66667,71.66667c39.5815,0 71.66667,-32.08517 71.66667,-71.66667c0,-39.5815 -32.08517,-71.66667 -71.66667,-71.66667zM69.868,50.18766h24.13151c11.35558,0 20.59717,9.238 20.59717,20.59717c0,5.21017 -1.94054,9.97197 -5.14404,13.60547c0.96392,0.68083 1.87324,1.45315 2.72249,2.30957c3.8915,3.90583 6.02297,9.09153 5.99788,14.60628c-0.05375,11.27317 -9.2716,20.46027 -20.54118,20.47819l-27.75684,0.04899h-0.007c-1.42258,0 -2.78979,-0.56079 -3.80029,-1.56771c-1.0105,-1.00692 -1.57471,-2.37754 -1.57471,-3.80729v-60.89567c0,-2.967 2.40442,-5.375 5.375,-5.375zM75.243,60.93766v19.70134l18.76351,-0.007c5.43233,0 9.84017,-4.41842 9.84017,-9.84717c0,-5.43233 -4.41842,-9.84717 -9.84717,-9.84717zM75.243,91.389v19.68034l22.37484,-0.03499c5.38216,-0.01075 9.78351,-4.39502 9.81217,-9.77718c0.01075,-2.63375 -1.00272,-5.11437 -2.86247,-6.9777c-1.85975,-1.86333 -4.34054,-2.89046 -6.9707,-2.89046z"></path></g></g></svg>
+          </div>
         </div>
         <div class="grid grid-cols-4 gap-5 mr-10 mb-10">
           <div class="text-gray-500">Extra-urbaine</div>
           <div>3.8 1 / 100 Km</div>
           <div class="text-gray-500">Qualité de l'air</div>
-          <div>Crit'Air Niveau 1</div>
+          <div class="flex flex-row">Crit'Air Niveau 1
+          <svg class="mt-1 ml-1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="18" height="18"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#8f40ff"><path d="M86,14.33333c-39.41667,0 -71.66667,32.25 -71.66667,71.66667c0,39.41667 32.25,71.66667 71.66667,71.66667c39.41667,0 71.66667,-32.25 71.66667,-71.66667c0,-39.41667 -32.25,-71.66667 -71.66667,-71.66667zM88.86667,118.96667v0c-3.56183,0 -6.45,-2.88817 -6.45,-6.45v-44.43333l-8.97983,2.8595c-3.36117,1.06783 -6.78683,-1.4405 -6.78683,-4.95933v0c0,-2.17867 1.36167,-4.128 3.40417,-4.88767l23.82917,-8.77917h1.43333v60.2c0,3.56183 -2.88817,6.45 -6.45,6.45z"></path></g></g></svg>
+          </div>
         </div>
 
-        <h3 class="font-semibold text-2xl mb-5">Equipements</h3>
-        <div class="grid grid-cols-2 gap-5 row-color-beige mr-10 mb-2">
+        <h3 class="font-semibold text-2xl mb-6">Equipements</h3>
+        <div class="grid grid-cols-2 gap-5 row-color-gris mr-10 mb-2">
           <div>Climatisation</div>
           <div>GPS</div>
         </div>
@@ -172,7 +182,7 @@
           <div>Jantes Alus</div>
           <div>Phares xénon</div>
         </div>
-        <div class="grid grid-cols-2 gap-5 row-color-beige mr-10 mb-2">
+        <div class="grid grid-cols-2 gap-5 row-color-gris mr-10 mb-2">
           <div>Régulateur de vitesse</div>
           <div>Prises USB</div>
         </div>
@@ -180,7 +190,7 @@
           <div>Bluetooth</div>
           <div>Feux automatiques</div>
         </div>
-        <div class="grid grid-cols-2 gap-5 row-color-beige mr-10 mb-2">
+        <div class="grid grid-cols-2 gap-5 row-color-gris mr-10 mb-2">
           <div>Capteur de pluie</div>
           <div>Radar de recul arrière</div>
         </div>
@@ -188,7 +198,7 @@
           <div>Radar de recul avant/arrière</div>
           <div>Courroie de Distribution</div>
         </div>
-        <div class="grid grid-cols-1 gap-5 row-color-beige mr-10 mb-14">
+        <div class="grid grid-cols-1 gap-5 row-color-gris mr-10 mb-14">
           <div>Caméra de recul</div>
         </div>
       </div>
@@ -273,8 +283,8 @@ export default {
 .border-right-grey {
   border-right: 1px solid #d3d3d3;
 }
-.row-color-beige {
-  background-color: #f5dcf5;
+.row-color-gris{
+  background-color: #F6F6F6;
 }
 .color-link {
   color: #1371c3;
