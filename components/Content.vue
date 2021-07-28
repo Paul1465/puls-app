@@ -128,7 +128,7 @@
       <div class="col-span-2 border-right-grey ml-10">
         <h3 class="font-semibold text-2xl mb-3">Fiche technique</h3>
         <h4 class="font-semibold text-1x1 mb-3">Général</h4>
-        <div class="grid grid-cols-4 gap-5 row-color-gris mr-10 mb-2">
+        <div class="grid grid-cols-4 gap-5 row-color-grey mr-10 mb-2">
           <div class="text-gray-500">Type</div>
           <div>Citadine</div>
           <div class="text-gray-500">Puissance</div>
@@ -140,7 +140,7 @@
           <div class="text-gray-500">Première main</div>
           <div>Oui</div>
         </div>
-        <div class="grid grid-cols-4 gap-5 row-color-gris mr-10 mb-10">
+        <div class="grid grid-cols-4 gap-5 row-color-grey mr-10 mb-10">
           <div class="text-gray-500">Carrosserie</div>
           <div>5 portes</div>
           <div class="text-gray-500">Couleur</div>
@@ -150,7 +150,7 @@
           <h4 class="font-semibold text-1x1 mb-3">Consommation</h4>
           <h4 class="font-semibold text-1x1 mb-3">Informations énergétiques</h4>
         </div>
-        <div class="grid grid-cols-4 gap-5 row-color-gris mr-10 mb-2">
+        <div class="grid grid-cols-4 gap-5 row-color-grey mr-10 mb-2">
           <div class="text-gray-500">Mixte</div>
           <div>4.7 1/ 100 Km</div>
           <div class="text-gray-500">Emissions de CO2</div>
@@ -174,7 +174,7 @@
         </div>
 
         <h3 class="font-semibold text-2xl mb-6">Equipements</h3>
-        <div class="grid grid-cols-2 gap-5 row-color-gris mr-10 mb-2">
+        <div class="grid grid-cols-2 gap-5 row-color-grey mr-10 mb-2">
           <div>Climatisation</div>
           <div>GPS</div>
         </div>
@@ -182,7 +182,7 @@
           <div>Jantes Alus</div>
           <div>Phares xénon</div>
         </div>
-        <div class="grid grid-cols-2 gap-5 row-color-gris mr-10 mb-2">
+        <div class="grid grid-cols-2 gap-5 row-color-grey mr-10 mb-2">
           <div>Régulateur de vitesse</div>
           <div>Prises USB</div>
         </div>
@@ -190,7 +190,7 @@
           <div>Bluetooth</div>
           <div>Feux automatiques</div>
         </div>
-        <div class="grid grid-cols-2 gap-5 row-color-gris mr-10 mb-2">
+        <div class="grid grid-cols-2 gap-5 row-color-grey mr-10 mb-2">
           <div>Capteur de pluie</div>
           <div>Radar de recul arrière</div>
         </div>
@@ -198,7 +198,7 @@
           <div>Radar de recul avant/arrière</div>
           <div>Courroie de Distribution</div>
         </div>
-        <div class="grid grid-cols-1 gap-5 row-color-gris mr-10 mb-14">
+        <div class="grid grid-cols-1 gap-5 row-color-grey mr-10 mb-14">
           <div>Caméra de recul</div>
         </div>
       </div>
@@ -239,7 +239,7 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-2 bg-blue-200 mt-7">
+        <div class="grid grid-cols-2 bg-blue-200 mt-7 mb-8">
           <button
             class="btn color-link hover:bg-blue-400 text-white w-100 text-sm py-2 px-1"
           >
@@ -283,7 +283,7 @@ export default {
 .border-right-grey {
   border-right: 1px solid #d3d3d3;
 }
-.row-color-gris{
+.row-color-grey{
   background-color: #F6F6F6;
 }
 .color-link {
