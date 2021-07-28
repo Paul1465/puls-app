@@ -41,6 +41,16 @@
                         </li>
                     </nav>
                 </div>
+                <div class="lg:w-2/4 md:w-1/2 w-full px-4 text-right content-end right-0 items-end  text-xl font-semibold">
+                    <h1>Suivez-nous</h1>
+                        <div class="grid grid-cols-3 mr-2">
+                        <div class="flex flex-row mt-5 col-start-3 col-end-5">
+                            <a class="rounded-full bg-blue-circle h-11 w-11 flex items-center justify-center fb-ic ml-3" role="button"><i class="fab fa-md fa-facebook-square text-white rounded-r-full"></i></a>
+                            <a class="rounded-full bg-blue-circle h-11 w-11 flex items-center justify-center fb-ic ml-4" role="button"><i class="fab fa-md fa-twitter text-white rounded-r-full"></i></a>
+                            <a class="rounded-full bg-blue-circle h-11 w-11 flex items-center justify-center fb-ic ml-3" role="button"><i class="fab fa-md fa-instagram text-white rounded-r-full"></i></a>
+                        </div>
+                        </div>
+                </div>
                 <div class="container mx-auto flex flex-wrap flex-col sm:flex-row ml-4 mb-10">
                     <p class="text-gray-500 text-xs text-center sm:text-left">
                     © Marketing automobile by Le Garage Digital, powered by Eveho
@@ -56,3 +66,9 @@ export default {
     name: "Footer"
 };
 </script>
+
+<style>
+.bg-blue-circle{
+    background-color: #007EDB;
+}
+</style>
